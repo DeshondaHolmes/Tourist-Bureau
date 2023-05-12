@@ -3,12 +3,16 @@
     text-align: center;
     flex-wrap: wrap;
     
-  
 
 
 }
 
 h1 {
-    padding-left: 15%;
+   
 
+}
+
+.card-img{
+    width:25%;
+    height:25%
 }
