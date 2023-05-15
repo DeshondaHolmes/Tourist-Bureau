@@ -23,8 +23,8 @@ nav {
 
 body {
     background: linear-gradient(rgb(52, 143, 217), rgb(148, 5, 5), rgb(183, 183, 209), rgb(31, 21, 219), pink);
-    
-}  
+
+}
 
 #card-small {
     height: 150;
@@ -37,4 +37,26 @@ body {
     font-size: x-large;
     font-weight: 700;
     font-style: oblique;
+}
+
+
+
+
+
+#img{
+    font-size: large;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
 }
