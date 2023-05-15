@@ -134,7 +134,6 @@ function onCategorySelectChange() {
             availableItemsListbox.appendChild(new Option(activity.name, activity.id));
         }
     }
-
     // if (currentValue == "Adventures") {
     //     let activitiesCount = activities.category;
     //     for (let i = 0; i < activitiesCount; i++) {
