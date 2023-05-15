@@ -1,9 +1,9 @@
 nav {
     font-weight: 300;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
-  
+
 }
 
 
@@ -13,8 +13,28 @@ nav {
     justify-content: left;
 }
 
-.container-flex{
+.container-flex {
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
+
+
+
+}
+
+body {
+    background: linear-gradient(rgb(52, 143, 217), rgb(148, 5, 5), rgb(183, 183, 209), rgb(31, 21, 219), pink);
     
+}  
+
+#card-small {
+    height: 150;
+    width: 200;
+
+}
+
+
+#top-card {
+    font-size: x-large;
+    font-weight: 700;
+    font-style: oblique;
 }

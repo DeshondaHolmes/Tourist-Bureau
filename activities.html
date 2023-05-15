@@ -10,38 +10,36 @@
     <link href="css/index.css" rel="stylesheet">
 </head>
 
-<body class="">
-    <header class="">
-
-        <!--navigation bar in header-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom ">
-            <a class="navbar-brand" href="index.html">Tourist Central</a>
-            <!--toggler button-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Navbar items-->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="activities.html">Activities</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                <!--End navigationbar-->
-                <!--Navbar items end-->
-            </div>
-        </nav>
+<body>
+    <header>
+        <div class="border-0 mb-2  px-0">
+            <nav class="navbar navbar-expand-lg bg-body">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/coconut-tree-illustration"
+                        alt="coconutlogo" width="48" height="42">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="activities.html">Activites</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
-        <h1>Activities</h1>
+        <h1 class=" text-center">Activites</h1>
+        <div class="container"</div>
         <div class="row">
             <select id="categorySelect">
                 <option value=""> Select one</option>
@@ -52,7 +50,7 @@
                 <option value="Other">Other</option>
             </select>
         </div>
-     
+
         <div class="row">
             <select id="availableItemsListbox" size="10"> Listed</select>
 

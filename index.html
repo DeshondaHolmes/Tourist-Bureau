@@ -13,57 +13,126 @@
 <body>
     <!--Nav link-->
     <header>
-        <div class="container-flex border">
-        <nav class="navbar navbar-expand-lg bg-body">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/coconut-tree-illustration" alt="coconutlogo"
-                        width="48" height="42"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
+        <div class="border-0 mb-2  px-0">
+            <nav class="navbar navbar-expand-lg bg-body">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/coconut-tree-illustration"
+                            alt="coconutlogo" width="48" height="42"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="activities.html">Activites</a>
+                            </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Learn more
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Hiking</a></li>
+                                    <li><a class="dropdown-item" href="#">Buy tickets</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Sign in</a></li>
+                                </ul>
+                            </li>
 
-                    </ul>
+                        </ul>
 
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
         </div>
 
     </header>
 
     <!--main information-->
     <main>
-        <div class="container border">
-            <h1 id="title">South Florida's Tourist Guide</h1>
+        <h1 class=" text-center">South Florida's Tourist Center</h1>
+        <br>
+        <div class="card text-bg-dark mb-3">
+            <img src="images/backdrop.png" width="200" height="350" class="card-img" alt="...">
+            <div class="card-img-overlay text-dark" id="top-card">
+                <h2 class="card-title">Welcome we have new adventures and more!</h2>
+                </p>
+                <p class="card-text"><small>Your adventure awaits......</small></p>
+            </div>
         </div>
+        <h2 class="text-center mt-2">Activites</h2>
+        <div class="container-flex mt-5" id="card-small">
 
+            <div class="card text-bg-primary mb-3">
+                <div class="card-header">Adventures</div>
+                <div class="card-body">
+                    <ul class="card-title">
+                        <li>Float Trip</li>
+                        <li>River Run</li>
+                        <li>Hot Air Ballons</li>
+                    </ul>
+                    <p class="card-text">Price $65.00 - $265.00
+                    </p>
+                </div>
+            </div>
+            <div class="card text-bg-success mb-3" id="card=small">
+                <div class="card-header">Arts & Crafts</div>
+                <div class="card-body">
+                    <ul class="card-title">
+                        <li>Painting with Oils</li>
+                        <li>Painting with Watercolor</li>
 
+                    </ul>
+                    <p class="card-text">Price $10.00 - $40.00
+                    </p>
+                </div>
+            </div>
+            <div class="card text-bg-secondary mb-3" id="card=small">
+                <div class="card-header">Museums</div>
+                <div class="card-body">
+                    <ul class="card-title">
+                        <li>Fork & Spoon</li>
+                        <li>Computing</li>
 
+                    </ul>
+                    <p class="card-text">Price $0.00 - $3.00
+                    </p>
+                </div>
+            </div>
+            <div class="card text-bg-info mb-3" id="card=small">
+                <div class="card-header">Wine Tastings</div>
+                <div class="card-body">
+                    <ul class="card-title">
+                        <li>Tours</li>
+                        <li>Winery</li>
+
+                    </ul>
+                    <p class="card-text">Price $0.00 - $12.00
+                    </p>
+                </div>
+            </div>
+            <div class="card text-bg-dark mb-3" id="card=small">
+                <div class="card-header">Other</div>
+                <div class="card-body">
+                    <ul class="card-title">
+                        <li>Ride Along</li>
+                        <li>Homes</li>
+
+                    </ul>
+                    <p class="card-text">Price $0.00 $25.00
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
-
-
 
     <!--end of information-->
     <footer>
